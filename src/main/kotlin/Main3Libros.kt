@@ -22,7 +22,7 @@ fun main() {
 
         for (uno in biblioteca){
             stmt.setString(1, uno.nombre)
-            
+
             stmt.setString(2, uno.autor)
 
             stmt.setString(3, uno.editorial)
